@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pigeon Delivery</string>
+
+    //config
+    <string name="API_KEY_GOOGLE_MAP">AIzaSyCtDkJ-qYR03siSJmjcUrb4z9ZTXZoRrUE</string>
+    <string name="server_client_id">1015645092511-f8nrpksskjas6usrqib9129f9nv3hon1.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">151954398786441</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

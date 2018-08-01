@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pigeon.driver.SignupActivity">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_back"
+        android:background="?attr/selectableItemBackground"/>
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btn_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/image_profile_sua"/>
+
+        <TextView
+            android:id="@+id/text_waning_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:text="Please select your photo."
+            android:gravity="start"
+            android:textSize="12sp"
+            android:textColor="@color/red"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:hint="Name"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:id="@+id/text_waning_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:text="Please enter your name."
+            android:gravity="start"
+            android:textSize="12sp"
+            android:textColor="@color/red"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:hint="Phone"
+            android:maxLength="11"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            tools:ignore="TextFields"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/text_waning_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:text="Number phone must be at least 11 characters."
+            android:gravity="start"
+            android:textSize="12sp"
+            android:textColor="@color/red"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:hint="Email"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            tools:ignore="TextFields"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/text_waning_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:text="Invalid email."
+            android:gravity="start"
+            android:textSize="12sp"
+            android:textColor="@color/red"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:hint="Password"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/text_waning_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:text="Password must be at least 6 characters."
+            android:gravity="start"
+            android:textSize="12sp"
+            android:textColor="@color/red"
+            android:fontFamily="@font/comfortaa_regular"
+            tools:targetApi="jelly_bean"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="35dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/comfortaa_regular"
+            android:textAllCaps="false"
+            android:elevation="4dp"
+            android:padding="10dp"
+            tools:targetApi="jelly_bean"
+            android:backgroundTint="@color/colorAccent"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

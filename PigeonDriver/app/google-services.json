@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "project_number": "1015645092511",
+    "firebase_url": "https://kobjaider-express.firebaseio.com",
+    "project_id": "kobjaider-express",
+    "storage_bucket": "kobjaider-express.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015645092511:android:28d51f30323e86c0",
+        "android_client_info": {
+          "package_name": "com.jumpa.express"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1015645092511-f8nrpksskjas6usrqib9129f9nv3hon1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDkJ-qYR03siSJmjcUrb4z9ZTXZoRrUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015645092511:android:a622b9ef812906fd",
+        "android_client_info": {
+          "package_name": "com.jumpa.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015645092511-lviv17nce5ta87nntgpfju1k62k0poho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jumpa.driver",
+            "certificate_hash": "3db9552866dafc8f7017d6829ebe4b2c11fc5496"
+          }
+        },
+        {
+          "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1015645092511-f8nrpksskjas6usrqib9129f9nv3hon1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDkJ-qYR03siSJmjcUrb4z9ZTXZoRrUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015645092511-u0bdfeuek9cmgaq2su073dnoov24c9dd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jumpa.express"
+              }
+            },
+            {
+              "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015645092511:android:ef8f683c41469a08",
+        "android_client_info": {
+          "package_name": "com.pigeon.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015645092511-icu6oe2q73e1sm5qjp8f151rgbhppnj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pigeon.driver",
+            "certificate_hash": "3db9552866dafc8f7017d6829ebe4b2c11fc5496"
+          }
+        },
+        {
+          "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1015645092511-f8nrpksskjas6usrqib9129f9nv3hon1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDkJ-qYR03siSJmjcUrb4z9ZTXZoRrUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015645092511-u0bdfeuek9cmgaq2su073dnoov24c9dd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jumpa.express"
+              }
+            },
+            {
+              "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "1015645092511",
+    "firebase_url": "https://kobjaider-express.firebaseio.com",
+    "project_id": "kobjaider-express",
+    "storage_bucket": "kobjaider-express.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015645092511:android:ef8f683c41469a08",
+        "android_client_info": {
+          "package_name": "com.pigeon.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015645092511-icu6oe2q73e1sm5qjp8f151rgbhppnj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pigeon.driver",
+            "certificate_hash": "3db9552866dafc8f7017d6829ebe4b2c11fc5496"
+          }
+        },
+        {
+          "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1015645092511-f8nrpksskjas6usrqib9129f9nv3hon1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDkJ-qYR03siSJmjcUrb4z9ZTXZoRrUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015645092511-u0bdfeuek9cmgaq2su073dnoov24c9dd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jumpa.express"
+              }
+            },
+            {
+              "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015645092511:android:f3b1e6dad6a1896f",
+        "android_client_info": {
+          "package_name": "com.pigeon.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015645092511-ap8lih9k7rud3ph40789a7278lsngcet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pigeon.delivery",
+            "certificate_hash": "3db9552866dafc8f7017d6829ebe4b2c11fc5496"
+          }
+        },
+        {
+          "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1015645092511-f8nrpksskjas6usrqib9129f9nv3hon1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDkJ-qYR03siSJmjcUrb4z9ZTXZoRrUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015645092511-u0bdfeuek9cmgaq2su073dnoov24c9dd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jumpa.express"
+              }
+            },
+            {
+              "client_id": "1015645092511-2qbp04m0mlk8kkd7jstiir80rvemjjkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
